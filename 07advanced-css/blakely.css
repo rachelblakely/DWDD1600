@@ -1,0 +1,207 @@
+/*Prevent problems with different browsers*/
+*{box-sizing: border-box;}
+
+body {
+    font-family: "Playfair", sans-serif;
+    font-weight: 300;
+    margin: 0;
+    font-size: 16px;
+}
+/* header stuff here */
+header {
+    font-family: 'Roslindale';
+    padding: 1rem 2vw;
+
+}
+header span {
+    margin: 0;
+    color: #913a21;
+    font-size: 1.6rem;
+    font-weight: 900;
+}
+header p {
+    margin: 0;
+    color: #b64e11;
+    font-size: 1.22rem;
+    letter-spacing: 2px;
+}
+
+/* navigation stuff here */
+@media only screen and (max-width: 800px){
+nav ul{
+    margin: 0;
+    padding: 0 auto;
+    list-style-type: none;
+}
+
+nav a{
+    display: block;
+    padding: .8rem;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+    color: #e5e6e0;
+}
+
+
+nav .active a{
+    background-color: #cda995;
+    color: #2d201a;
+}
+
+}
+
+
+
+/*Large Screen format*/
+@media only screen and (min-width: 801px){
+
+
+
+nav {
+    background-color: #3d5971;
+}
+nav ul {
+    margin: 0;
+    padding: 0 2vw;
+    list-style-type: none;
+    display: flex;
+}
+nav a {
+    display: block;
+    padding: .83rem 1rem;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #e5e6e0;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+nav .active a {
+    background-color: #cda995;
+    color: #2d201a;
+}
+nav a:hover {
+    color: #000;
+    background-color: #95732c;
+}
+}
+
+/* main stuff here */
+main {
+    padding: 1rem 2vw;
+}
+
+main h1 {
+    color: #8b5022;
+    font-size: 2.5rem;
+    margin: .5rem 0 .8rem 0;
+    font-weight: 200;
+}
+main h2 {
+    color: #913a21;
+    margin-bottom: .2rem;
+}
+main p {
+    color: #070805;
+    margin: 0 0 .8rem 0;
+    line-height: 150%;
+    font-size: 1.2rem;
+}
+main a {
+    color: #9c3335;
+}
+
+/*image stuff here?*/
+
+figure.wrapped {
+    width: 30%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+figure.wrapped img{
+    width: 100%;
+    height: auto;
+}
+
+figure.wrapped figcaption {
+    text-align: center;
+    font-size: .75rem;
+}
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+div.gallery figure {
+    margin: .5rem 2% 0 0;
+}
+div.gallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    padding: 1rem 0;
+}
+/*angelo stuff??*/
+
+
+div.Gallery section {
+    flex-basis: 50%;
+    margin: 1rem 0;
+    
+}
+div.Gallery span {
+    display: block;
+    text-align: center; 
+    font-weight: 700;
+    color: #895772;
+}
+div.Gallery img {
+    width: 98%;
+    height: auto;
+}
+
+div.Gallery img:hover {
+    width: 98%;
+    height: auto;
+    box-shadow: 0px 0px 10px black
+}
+
+
+img.hero {
+width: 100%;
+margin: 0;
+}
+
+img.hero {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+/* footer stuff here */
+footer {
+    border-top: solid #ccc 2px;
+    text-align: center;
+    color: #024873;
+    font-size: .7rem;
+    padding: 1rem 0;
+    clear: both;
+    background-color: #cda995;
+
+}
+footer a {
+    color: #024873;
+}
+
+
+header, nav, main, footer   {
+    max-width: 64rem; 
+    margin: 0 auto;
+}
+
+
+
+
